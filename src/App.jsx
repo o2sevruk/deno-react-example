@@ -21,6 +21,7 @@ class App extends React.Component {
 	render() {
 		return (
 			<div>
+				<h2>Users list:</h2>
 				<ListUsers users={users} />
 			</div>
 		);
